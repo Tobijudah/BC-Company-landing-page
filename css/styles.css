@@ -141,7 +141,7 @@ nav ul li:last-of-type a {
 }
 
 .features {
-   margin: 5rem 0;
+   margin: 10rem 0;
 }
 
 .features .heading {
@@ -180,4 +180,18 @@ nav ul li:last-of-type a {
 
 .features .content .card p {
    font-size: 0.85rem;
+}
+
+.testimonial {
+   display: flex;
+   margin: 10rem 0;
+   padding-top: 5rem;
+}
+
+.testimonial .image {
+   flex: 0.55;
+}
+
+.testimonial .text {
+   flex: 0.45;
 }
