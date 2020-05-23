@@ -19,6 +19,10 @@ h1 {
    font-size: 2.3rem;
 }
 
+h2 {
+   font-size: 1.8rem;
+}
+
 h4 {
    font-weight: 800;
    font-size: 1.15rem;
@@ -104,4 +108,47 @@ nav ul li:last-of-type a {
 
 .hero .image {
    flex: 0.55;
+   margin-left: 1rem;
+}
+
+.hero .image img {
+   width: 100%;
+}
+
+.features {
+   margin: 5rem 0;
+}
+
+.features .heading {
+   margin-bottom: 3rem;
+   text-align: center;
+}
+
+.features .heading h2 {
+   margin-bottom: 2rem;
+}
+
+.features .heading hr {
+   width: 45px;
+   margin: 0 auto;
+   background: #232323;
+   height: 3px;
+}
+
+.features .content {
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+}
+
+.features .content .card {
+   width: 75%;
+   margin: 0 auto;
+}
+
+.features .content .card h3 {
+   margin-bottom: 1rem;
+}
+
+.features .content .card p {
+   font-size: 0.85rem;
 }
